@@ -34,7 +34,10 @@ class EachCharCountInString
         //Printing the charCountMap
 
         System.out.println(charCountMap);
+
+
     }
+
 
     public static void main(String[] args)
     {

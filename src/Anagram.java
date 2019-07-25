@@ -27,6 +27,7 @@ public class Anagram
                 if(map.containsKey(charAsKey))
                 {
                     charCountAsValue = map.get(charAsKey);
+                   // System.out.println(charCountAsValue);
                 }
                 map.put(charAsKey, ++charCountAsValue);
                 charAsKey = copyOfs2.charAt(i);
